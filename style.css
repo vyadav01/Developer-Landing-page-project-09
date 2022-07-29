@@ -1,0 +1,456 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f8f8fa;
+}
+/* Header Starts */
+
+header {
+  background-color: #4718fe;
+}
+
+/* Navigation Bar Starts */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 40px 0px 55px;
+  color: #ffffff;
+}
+
+/* Navigation items Starts */
+
+nav a.nav-item,
+svg.nav-item {
+  text-decoration: none;
+  margin: 0px 15px;
+  font-size: 14px;
+}
+
+/*  LOGO */
+
+header div .logo {
+  margin-left: 55px;
+}
+
+nav .nav-item-active,
+nav a.nav-item {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+nav .nav-item-active:hover,
+nav a.nav-item:hover {
+  background-color: #ffffff;
+  color: #4718fe;
+}
+
+/*  Image */
+
+.header-image {
+  position: absolute;
+  top: 15%;
+  left: 55.2%;
+  filter: drop-shadow(0px 2px 10px #c4c4c43d);
+}
+
+/* Text */
+
+header .header-text {
+  margin: 83px 20px 20px 55px;
+}
+
+header .header-text h2 {
+  font-size: 38px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 60px;
+}
+
+header .header-text p {
+  font-size: 17px;
+  font-weight: 200;
+  color: #e5e5e5;
+  padding-bottom: 125px;
+}
+
+/*  Companies */
+
+div.companies {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 55px;
+  width: 50%;
+}
+
+.companies a.company-items {
+  text-decoration: none;
+  margin-right: 76px;
+  font-size: 20px;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Righteous", sans-serif;
+}
+
+/*  API Section */
+
+.api {
+  margin: 80px 55px 20px 55px;
+}
+
+.api .api-heading {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+/* Cards */
+
+.api .cards {
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.api .cards .card-active {
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 5px 0px 15px 0px #d0c7c721;
+}
+
+.api .cards .card-active .card-head-active {
+  color: #4618fee0;
+  font-weight: 900;
+}
+
+.api .cards .card-active,
+.api .cards .card {
+  padding: 40px 20px;
+}
+
+.api .cards .card-active .card-body,
+.api .cards .card .card-body {
+  font-size: 12px;
+  padding-top: 5px;
+  font-weight: 600;
+  color: #000000a9;
+}
+
+/* Right arrow */
+
+.api .cards .right-arrow {
+  background-color: #4718fe;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  margin-top: 95px;
+}
+
+.api .cards .right-arrow .right-arrow-image {
+  color: #ffffff;
+  margin: 10px;
+  width: 20px;
+  filter: invert();
+}
+
+/* Blog section */
+
+.blog-heading {
+  margin: 60px 55px 0px 55px;
+}
+
+.blog-heading h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+/* Blogs */
+
+.blog-cards {
+  /* border: 2px solid black; */
+  margin: 30px 55px 0px 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+/* Blog cards */
+
+.blog-cards .blog-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 10px;
+  /* border: 2px solid black; */
+}
+
+.blog-cards .blog-card .blog-text-area {
+  padding: 20px 55px;
+  background-color: #ffffff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 288px;
+  position: relative;
+  box-shadow: 2px 5px 15px 0px #a9a9a930;
+  /* border: 2px solid black; */
+}
+
+.blog-cards .blog-card .blog-text-area .blog-content h6 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #4618fee0;
+  padding-top: 20px;
+}
+
+.blog-cards .blog-card .blog-text-area .blog-content h3 {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 0px;
+}
+
+.blog-cards .blog-card .blog-text-area .blog-content small {
+  font-size: 11px;
+  font-weight: 700;
+  color: #000000a9;
+}
+
+.blog-cards .blog-card .blog-text-area .blog-bottom {
+  position: absolute;
+  top: 87%;
+  left: 22%;
+}
+
+.blog-cards .blog-card .blog-text-area .blog-bottom .blog-card-bottom-image {
+  border: 3px solid #ffffff;
+  border-radius: 35px;
+}
+
+.blog-cards .blog-card .blog-text-area .blog-author {
+  position: absolute;
+  top: 89%;
+  left: 46%;
+}
+
+.blog-cards .blog-card .blog-text-area .blog-author-name {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+/* FAQ SECTION */
+
+.faq-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #e9edff;
+  margin: 60px 0px;
+  position: relative;
+  height: 324px;
+}
+
+.faq-section .faq-content {
+  padding-top: 30px;
+  padding-left: 55px;
+}
+
+.faq-section .faq-content h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.faq-section .faq-content h4:nth-child(2n) {
+  font-size: 12px;
+  font-weight: 700;
+  padding-top: 10px;
+  color: #696969;
+}
+
+.faq-section .faq-content h4:nth-child(3n) {
+  font-size: 15px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+.faq-section .faq-content button {
+  background-color: #5a31fc;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 10px;
+  color: #ffffff;
+  border: 2px solid #5a31fc;
+  margin-top: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.faq-section .faq-content button:hover {
+  background-color: transparent;
+  border: 2px solid #5a31fc;
+  color: #5a31fc;
+}
+
+.faq-section .faq-image img {
+  position: absolute;
+  top: 0%;
+  left: 52.5%;
+}
+
+/* Download */
+
+.download-section{
+  margin: 80px 55px 80px 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.download-section .download-content h1{
+font-size: 24px;
+}
+
+.download-section .download-content h1 span{
+ font-weight: 200;
+}
+
+.download-section .download-email{
+  font-weight: 500;
+  font-size: 12px;
+  background-color: #e9edff;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+
+.download-section .download-email,
+.download-section .download-email form input{
+  font-weight: 500;
+  font-size: 12px;
+  background-color: #e9edff;
+  outline: none;
+  border: none;
+  width: 495px;
+  border-radius: 40px;
+  padding: 5px 5px 5px 10px;
+}
+
+.download-section .download-email form input{
+  width:350px
+}
+
+.download-section .download-email form button{
+  background-color: #5a31fc;
+  border: none;
+  outline: none;
+  padding: 8px 25px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 40px;
+  color: #ffffff;
+  border: 2px solid #5a31fc;
+  transition: 0.2s ease-in-out;
+  text-transform: uppercase;
+}
+
+.download-section .download-email form button:hover {
+  background-color: transparent;
+  border: 2px solid #5a31fc;
+  color: #5a31fc;
+}
+
+
+/* Footer */
+
+.footer-section{
+  background-color: #4718fe;
+  padding: 60px 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footer-section .footer-left .list,
+.footer-section .footer-right .logos-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-top: 20px;
+  position: relative;
+}
+
+.footer-section .footer-left .list .list-items{
+ margin-right: 42px;
+ font-size: 12px;
+ color: #cacaca;
+}
+
+.footer-right .footer-right-logos .footer-logo{
+margin-left: 20px;
+}
+
+.footer-section .footer-right .logos-list .list-items{
+ margin-right: 38px;
+ font-size: 12px;
+ color: #cacaca;
+}
+  
+.footer-section .footer-left .list .list-items:nth-child(2n+1)::before,
+.footer-section .footer-left .list .list-items:nth-child(3n+1)::before,
+.footer-section .footer-right .logos-list .list-items:nth-child(4n+1)::before,
+.footer-section .footer-right .logos-list .list-items:nth-child(2n+1)::before,
+.footer-section .footer-right .logos-list .list-items:nth-child(3n+1)::before{
+  content: "";
+  background-color: #cacaca;
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  top: 62%;
+  left: 44%;
+
+}
+
+.footer-section .footer-left .list .list-items:nth-child(3n+1)::before{
+  left: 58%;
+}
+
+.footer-section .footer-left .list .list-items:nth-child(4n+1)::before{
+  left: 75%;
+}
+
+.footer-section .footer-right .logos-list .list-items:nth-child(2n+1)::before{
+  left: 20%;
+}
+
+.footer-section .footer-right .logos-list .list-items:nth-child(3n+1)::before{
+  left: 60%;
+}
